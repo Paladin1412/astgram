@@ -1,0 +1,46 @@
+Requirement already satisfied: pip in ./venv/lib/python2.7/site-packages
+  Getting page http://pypi.python.org/simple/pip
+  Could not fetch URL http://pypi.python.org/simple/pip: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/pip when looking for download links for pip in ./venv/lib/python2.7/site-packages
+  Getting page http://pypi.python.org/simple/
+  Could not fetch URL http://pypi.python.org/simple/: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/ when looking for download links for pip in ./venv/lib/python2.7/site-packages
+  Cannot fetch index base URL http://pypi.python.org/simple/
+Cannot find requirement pip in ./venv/lib/python2.7/site-packages, nor fetch index URL http://pypi.python.org/simple/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 169, in main
+    self.run(options, args)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 322, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 1603, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 853, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 926, in _find_url_name
+    raise DistributionNotFound('Cannot find requirement %s, nor fetch index URL %s' % (req, index_url))
+DistributionNotFound: Cannot find requirement pip in ./venv/lib/python2.7/site-packages, nor fetch index URL http://pypi.python.org/simple/
+------------------------------------------------------------
+/Users/WANGYISU/PycharmProjects/astgram2/venv/bin/pip run on Sun Sep 29 23:00:17 2019
+Downloading/unpacking mysql-python
+  Getting page http://pypi.python.org/simple/mysql-python
+  Could not fetch URL http://pypi.python.org/simple/mysql-python: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/mysql-python when looking for download links for mysql-python
+  Getting page http://pypi.python.org/simple/
+  Could not fetch URL http://pypi.python.org/simple/: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/ when looking for download links for mysql-python
+  Cannot fetch index base URL http://pypi.python.org/simple/
+Cannot find requirement mysql-python, nor fetch index URL http://pypi.python.org/simple/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 169, in main
+    self.run(options, args)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 322, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 1603, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 853, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req)
+  File "/Users/WANGYISU/PycharmProjects/astgram2/venv/lib/python2.7/site-packages/pip.py", line 926, in _find_url_name
+    raise DistributionNotFound('Cannot find requirement %s, nor fetch index URL %s' % (req, index_url))
+DistributionNotFound: Cannot find requirement mysql-python, nor fetch index URL http://pypi.python.org/simple/
